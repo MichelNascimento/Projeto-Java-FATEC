@@ -1,0 +1,20 @@
+package Contribuinte;
+
+public class Informa_dados {
+	public static void main(String args[]) {
+		
+		Dados_Contribuintes a = new Dados_Contribuintes();
+		
+		a.setNome("Michel Lopes");
+		a.setCPF("123456789-90");
+		a.setCNPJ("776 998 /0001");
+		a.setCartao("9976-j");
+		
+		System.out.println("Nome do Contribuinte: " + a.getNome());
+		System.out.println("CPF do Contribuinte: " + a.getCPF());
+		System.out.println("CNPJ do Contribuinte: " + a.getCNPJ());
+		System.out.println("Cartão do Contribuinte: " + a.getCartao());
+				
+	}
+
+}
