@@ -1,0 +1,26 @@
+package Contribuinte;
+import javax.swing.JOptionPane;
+
+public class Informa_dados {
+	public static void main(String args[]) {
+		
+		Dados_Contribuintes a = new Dados_Contribuintes();
+		String nom;
+		String cp;
+		String cn;
+		String car;
+				
+		nom = JOptionPane.showInputDialog("digite o nome: ");
+		cp = JOptionPane.showInputDialog("digite o CPF ");
+		cn = JOptionPane.showInputDialog("digite o CNPJ ");
+		car = JOptionPane.showInputDialog("digite o numero do cartão ");
+		
+		a.setNome(nom);		
+		a.setCPF(cp);
+		a.setCNPJ(cn);
+		a.setCartao(car);
+
+
+	}
+
+}

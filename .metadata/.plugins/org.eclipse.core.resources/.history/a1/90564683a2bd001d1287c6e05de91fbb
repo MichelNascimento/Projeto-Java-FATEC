@@ -20,10 +20,10 @@ public class Informa_dados {
 		a.setCNPJ(cn);
 		a.setCartao(car);
 		
-		System.out.println("Nome:\t" + a.getNome());
-		System.out.println("CPF:\t" + a.getCPF());
-		System.out.println("CNPJ:\t" + a.getCNPJ());
-		System.out.println("Cartão:\t" + a.getCartao());
+		System.out.println("Nome: " + a.getNome());
+		System.out.println("CPF: " + a.getCPF());
+		System.out.println("CNPJ: " + a.getCNPJ());
+		System.out.println("Cartão: " + a.getCartao());
 	}
 
 }
