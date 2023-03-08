@@ -5,19 +5,19 @@ public class Concessionaria {
 		Automovel e = new Automovel();
 		
 		String mr,md,pr,cr;
-		double pp;
+		//double pp;
 		
 		mr = JOptionPane.showInputDialog("digite a marca: ");
 		md = JOptionPane.showInputDialog("digite o modelo: ");
 		cr = JOptionPane.showInputDialog("digite a cor: ");
 		pr = JOptionPane.showInputDialog("digite o preço: ");
 		
-		pp = Double.parseDouble(pr);
+		//pp = Double.parseDouble(pr);
 		
 		e.setMarca(mr);
 		e.setModelo(md);
 		e.setCor(cr);
-		e.setPreco(pp);
+		e.setPreco(pr);
 		
 		System.out.println("Marca:\t" + e.getMarca());
 		System.out.println("Modelo:\t" + e.getModelo());

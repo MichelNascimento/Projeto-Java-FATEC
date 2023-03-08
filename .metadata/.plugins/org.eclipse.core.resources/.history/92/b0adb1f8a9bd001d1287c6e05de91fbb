@@ -3,7 +3,7 @@ public class Automovel {
 	private String marca;
 	private String modelo;
 	private String cor;
-	private double preco;
+	private String preco;
 	
 	public void setMarca(String marca) {
 		this.marca = marca;
@@ -29,11 +29,11 @@ public class Automovel {
 		return cor;
 	}
 	
-	public void setPreco(double preco) {
+	public void setPreco(String preco) {
 		this.preco = preco;
 	}
 	
-	public double getPreco() {
+	public String getPreco() {
 		return preco;
 	}
 	}
