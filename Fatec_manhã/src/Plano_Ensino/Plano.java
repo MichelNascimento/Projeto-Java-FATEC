@@ -15,7 +15,10 @@ public class Plano {
 	}
 	
 	public void mostraPlano() {
-		System.out.println("\n" + "Materia" + "\t" + materia + "\n" + "Conteurdo:" + "\t" + conteudo + "\n" + "Criterio:" + "\t" + criterio + "\n" + "Bibliografia:" + "\t" + bibliografia);
+		System.out.println("\n" + "Materia" + "\t" + materia + 
+		"\n" + "Conteurdo:" + "\t" + conteudo + 
+		"\n" + "Criterio:" + "\t" + criterio +
+		"\n" + "Bibliografia:" + "\t" + bibliografia);
 	}
 	
 		
