@@ -1,4 +1,4 @@
-package Contribuinte;
+package contribuinte;
 
 public class Dados_Contribuintes {
 	private String nome;

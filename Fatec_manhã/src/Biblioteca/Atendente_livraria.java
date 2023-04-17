@@ -1,4 +1,4 @@
-package Biblioteca;
+package biblioteca;
 import javax.swing.JOptionPane;
 
 public class Atendente_livraria {
